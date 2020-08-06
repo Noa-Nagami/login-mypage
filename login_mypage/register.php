@@ -47,9 +47,9 @@
         </form>
     </main>
         
-<footer>
-    ©2018 InterNous.inc.All rights reserved
-</footer>
+    <footer>
+        ©2018 InterNous.inc.All rights reserved
+    </footer>
         
 <script>
     function ConfirmPassword(confirm){
