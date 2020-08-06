@@ -74,15 +74,9 @@ if(!empty($_SESSION['id'])&& !empty($_SESSION['login_keep'])){
                 <img src="<?php echo $_SESSION['picture'];?>">
             </div>
             <div class="basic_info">
-                <p>氏名：
-                    <?php echo $_SESSION['name']; ?>
-                </p>
-                <p>メール：
-                    <?php echo $_SESSION['mail']; ?>
-                </p>
-                <p>パスワード：
-                    <?php echo $_SESSION['password']; ?>
-                </p>
+                <p>氏名：<?php echo $_SESSION['name']; ?></p>
+                <p>メール：<?php echo $_SESSION['mail']; ?></p>
+                <p>パスワード：<?php echo $_SESSION['password']; ?></p>
             </div>
             <div class="comments">
                 <?php echo $_SESSION['comments']; ?>
